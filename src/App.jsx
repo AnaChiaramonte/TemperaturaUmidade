@@ -8,7 +8,7 @@ function App() {
   // Configurações do MQTT
   const brokerHost = "broker.hivemq.com";
   const brokerPort = 8884;
-  const topic = "profcastello/temperatura";
+  const topic = "AnaChiaramonte/temperatura";
 
   // Hook customizado para gerenciar MQTT
   const { temperature, humidity, isConnected, lastUpdate, connectionAttempts } =
